@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "rooms": {
+      "$roomId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "games": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
